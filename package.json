@@ -5,9 +5,7 @@
   "license": "MIT",
   "lint-staged": {
     "*.js": [
-      "eslint --fix",
-      "yarn test"
-    ]
+      "eslint --fix"]
   },
   "scripts": {
     "dev": "nodemon server.js",
