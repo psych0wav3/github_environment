@@ -5,11 +5,11 @@
   "license": "MIT",
   "husky":{
     "hooks":{
-      "pre-commit": "lint-staged"
+      "pre-commit": "yarn test"
     }
   },
   "lint-staged":{
-    "*.js": ["eslint --fix", "git add"]
+    "*.js": ["eslint --fix", "git add", "yarn test"]
   },
   "scripts": {
     "dev": "nodemon server.js",
