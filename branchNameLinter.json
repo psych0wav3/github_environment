@@ -18,7 +18,7 @@
           "skip-ci"
       ],
       "disallowed": [
-          "master",
+         
           "develop",
           "staging"
       ],
